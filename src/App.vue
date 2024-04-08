@@ -2,11 +2,13 @@
 import Header from './components/Header.vue';
 import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
+import Jumbotron from './components/partials/Jumbotron.vue';
   export default{
     components:{
       Header,
       Main,
-      Footer
+      Footer,
+      Jumbotron
     }
   }
 </script>
@@ -14,15 +16,19 @@ import Footer from './components/Footer.vue'
 <template>
 
   <Header />
-  <Main />
-  <Footer />
+  
+  <div class="body">
+    <Jumbotron />
+    <Main />
+    <Footer />
+  </div>
   
 </template>
 
 <style lang="scss">
 @use './assets/scss/main.scss';
 
-Main{
+.body{
   margin-top: 80px;
 }
 

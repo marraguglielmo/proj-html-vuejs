@@ -11,6 +11,14 @@ export default{
         {
             'logo': 'dark-logo.png'
         }
+    ],
+
+    'jumbotron':[
+        {
+            'img': 'home-3-hero-bg.jpg',
+
+
+        }
     ]
     
 }
