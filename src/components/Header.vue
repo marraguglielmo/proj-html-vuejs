@@ -33,8 +33,9 @@ import NavBar from './partials/NavBar.vue';
             <div class="search-bar d-flex justify-content-end">
                 <!-- icone -->
                 <div class="icons me-2 ">
-                    <span>
+                    <span class="cart position-relative">
                         <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="position-absolute ">0</span>
                     </span>
                     <span>
                         <i class="fa-regular fa-circle-user"></i>
@@ -56,15 +57,16 @@ import NavBar from './partials/NavBar.vue';
 </template>
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variables' as *;
+@use '../assets/scss/partials/general' as *;
 
     header{
         position: absolute;
         top: 0;
         width: 100%;
         min-height: 80px;
-        background: rgba(255, 0, 0, 0.562);
         .logo img{
-            width: 60%;
+            width: 160px;
         }
         .main-container .search-bar{
             .icons{
@@ -80,24 +82,42 @@ import NavBar from './partials/NavBar.vue';
                         color: grey;
                     }
                 }
+                .cart span{
+                    bottom: 18px;
+                    left: 13px;
+                    background: $darkGreen;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 5px;
+                    border-radius: 50%;
+                    width: 16px;
+                    height: 16px;
+                    color: $white;
+                    font-size: .7rem;
+                    font-weight: bold;
+                }
             }
         }
         .main-container > div{
             width: calc(100% / 3);
             .input-search{
-                background-color: rgba(128, 128, 128, 0.589);
+                background-color: lighten($grey, 25%);
                 border-radius: 5px;
                 padding: 7px 10px;
+                overflow: hidden;
                 input[type="text"]{
                     border: none;
                     background-color: transparent;
-                    &:focus{
-                        border: none;
-                        box-shadow: none;
-                    }
+                    outline: none;
                 }
                 span:last-child{
-                    padding: 10px;
+                    width: auto;
+                    cursor: pointer;
+                    i{
+                        padding: 5px;
+                        color: $darkGreen;
+                    }
                 }
             }
         }

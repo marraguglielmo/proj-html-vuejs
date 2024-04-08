@@ -22,4 +22,8 @@ import Footer from './components/Footer.vue'
 <style lang="scss">
 @use './assets/scss/main.scss';
 
+Main{
+  margin-top: 80px;
+}
+
 </style>
