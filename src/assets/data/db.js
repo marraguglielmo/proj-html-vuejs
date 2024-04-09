@@ -71,5 +71,132 @@ export default{
                 
         }
     ],
+
+
+    
+    
+    'address':[
+        {
+            'text': '382 NE 191 St # 87394 Miami, FL 33179-3899'
+        },
+        {
+            'text': '+1 (305) 547-9909 (9am - 5pm EST, Monday - Friday)'
+        },
+        {
+            'text': 'support@maxcoach.com'
+        }
+    ],
+
+    'socialIcons':[
+        {
+            'name': 'Facebook',
+            'icon': 'fa-brands fa-square-facebook',
+            'url': 'https://www.facebook.com/'
+        },
+        {
+            'name': 'Twitter',
+            'icon': 'fa-brands fa-x-twitter',
+            'url': 'https://www.twitter.com/'
+        },
+        {
+            'name': 'Instagram',
+            'icon': 'fa-brands fa-instagram',
+            'url': 'https://www.instagram.com/'
+        },
+        {
+            'name': 'Linkedin',
+            'icon': 'fa-brands fa-linkedin',
+            'url': 'https://www.linkedin.com/'
+        },
+    ],
+
+    'explore':[
+        {
+            'text': 'Start here',
+            'url': '#'
+        },
+        {
+            'text': 'Blog',
+            'url': '#'
+        },
+        {
+            'text': 'About us',
+            'url': '#'
+        },
+        {
+            'text': 'Success story',
+            'url': '#'
+        },
+        {
+            'text': 'Courses',
+            'url': '#'
+        },
+        {
+            'text': 'Contact us',
+            'url': '#'
+        },
+        
+    ],
+
+    'information':[
+        {
+            'text': 'Membership',
+            'url': '#'
+        },
+        {
+            'text': 'Purchase guide',
+            'url': '#'
+        },
+        {
+            'text': 'Privacy policy',
+            'url': '#'
+        },
+        {
+            'text': 'Terms of service',
+            'url': '#'
+        },
+    ]
+    
+    
+    
+    
+
+    // "footer": {
+    //     "address": {
+    //         "text": "382 NE 191 St # 87394 Miami, FL 33179-3899",
+    //         "suite": "# 87394",
+    //         "city": "Miami",
+    //         "state": "FL",
+    //         "postalCode": "33179-3899"
+    //         },
+    //         "phone": "+1 (305) 547-9909",
+    //         "officeHours": "9am - 5pm EST, Monday - Friday",
+    //         "email": "support@maxcoach.com",
+    //         "socialIcons": [
+    //         {
+    //             "name": "Facebook",
+    //             "iconClass": "fa-brands fa-square-facebook",
+    //             "url": "https://www.facebook.com/"
+    //         },
+    //         {
+    //             "name": "Twitter",
+    //             "iconClass": "fa-brands fa-x-twitter",
+    //             "url": "https://twitter.com/"
+    //         },
+    //         {
+    //             "name": "Instagram",
+    //             "iconClass": "fa-brands fa-instagram",
+    //             "url": "https://www.instagram.com/"
+    //         },
+    //         {
+    //             "name": "LinkedIn",
+    //             "iconClass": "fa-brands fa-linkedin",
+    //             "url": "https://www.linkedin.com/"
+    //         }
+    //     ]
+    // }
+
+
+
     
 }
