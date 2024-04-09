@@ -42,9 +42,23 @@ export default{
             'img1':'stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg',
             'img2':'about-us-01-ohkia3qg98rq9vg3s0mn2hkflr1migdqdw370qnegc.jpg',
             'img3': 'maxcoach-shape-02.png',
-            'enrolled learners': '129+',
-            'finished sessions': '80',
-            'satisfaction rate': '4%',
+            
+                
+        }
+    ],
+
+    'statsCards':[
+        {
+            'text': 'ENROLLED LEARNERS',
+            'value': '129+'
+        },
+        {
+            'text': 'FINISHED SESSIONS',
+            'value': '80'
+        },
+        {
+            'text' : 'SATISFATCION RATE',
+            'value': '4%'
         }
     ]
     

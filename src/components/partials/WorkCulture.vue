@@ -1,10 +1,15 @@
 <script>
 import {store} from '../../assets/data/store';
+import StatsCard from './StatsCard.vue';
     export default {
         data(){
             return{
                 store
             }
+        },
+
+        components:{
+            StatsCard
         }
     }
 </script>
@@ -14,6 +19,7 @@ import {store} from '../../assets/data/store';
         <div 
             v-for="(item, index) in store.dBase.workCulture"
             :key="index"
+            :itemObj="item"
             class="container row row-cols-2 m-auto"
         >
             <div class="text-box">
@@ -34,6 +40,16 @@ import {store} from '../../assets/data/store';
                     class="position-absolute">
                 </div>
             </div>
+
+            <div class="gm_card-box d-flex m-auto">
+
+                <StatsCard
+                    v-for="(card, index) in store.dBase.statsCards"
+                    :key="index"
+                    :cardObj="card"
+                />
+                
+            </div>
         </div>
     </section>
 </template>
@@ -45,6 +61,11 @@ import {store} from '../../assets/data/store';
 .work-culture{
     margin-top: 180px;
     margin-bottom: 280px;
+    .gm_card-box{
+        margin-top: 100px !important;
+        justify-content: space-between;
+        width: 70%;
+    }
     .text-box{
         width: 40%;
         padding: 0 60px;
@@ -106,6 +127,7 @@ import {store} from '../../assets/data/store';
     .row{
         padding: 0;
     }
+    
 }
 
 </style>
