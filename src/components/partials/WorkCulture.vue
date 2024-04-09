@@ -29,6 +29,9 @@ import {store} from '../../assets/data/store';
                     <img :src="`/img/${item.img1}`" alt="work culture 1">
                     <!-- img 2 -->
                     <img :src="`/img/${item.img2}`" alt="work culture 1" class="position-absolute">
+                    <!-- mg 3 -->
+                    <img :src="`/img/${item.img3}`" :alt="item.img3"
+                    class="position-absolute">
                 </div>
             </div>
         </div>
@@ -88,6 +91,12 @@ import {store} from '../../assets/data/store';
             width: 170px;
             bottom: 250px;
             left: 450px;
+            z-index: 10;
+        }
+        img:nth-child(3){
+            width: 100px;
+            top: 330px;
+            left: 420px;
             z-index: 10;
         }
         & > div{
