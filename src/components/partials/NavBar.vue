@@ -8,9 +8,7 @@ import {store} from '../../assets/data/store';
         },
 
         computed:{
-            headerNavBar(){
-                return this.store.dBase.header[0]
-            }
+
         },
     }
 </script>
@@ -18,9 +16,9 @@ import {store} from '../../assets/data/store';
 <template>
     <ul class="d-flex">
         <li
-            v-for="(item, index) in headerNavBar"
+            v-for="(item, index) in store.dBase.header"
             :key="index"
-        ><a href="#">{{ item }}</a></li>
+        ><a :href="item.href">{{ item.text }}</a></li>
         
     </ul>
 </template>

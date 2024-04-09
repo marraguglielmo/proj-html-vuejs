@@ -12,9 +12,6 @@ import NavBar from './partials/NavBar.vue';
             }
         },
 
-        mounted(){
-            console.log(this.store.dBase.header);
-        }
     }
 </script>
 
@@ -61,10 +58,12 @@ import NavBar from './partials/NavBar.vue';
 @use '../assets/scss/partials/general' as *;
 
     header{
-        position: absolute;
+        position: fixed;
         top: 0;
         width: 100%;
         min-height: 80px;
+        background-color: $white;
+        z-index: 999;
         .logo img{
             width: 160px;
         }

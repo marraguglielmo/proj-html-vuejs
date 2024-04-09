@@ -2,13 +2,11 @@
 import Header from './components/Header.vue';
 import Main from './components/Main.vue'
 import Footer from './components/Footer.vue'
-import Jumbotron from './components/partials/Jumbotron.vue';
   export default{
     components:{
       Header,
       Main,
       Footer,
-      Jumbotron,
     }
   }
 </script>
@@ -18,7 +16,6 @@ import Jumbotron from './components/partials/Jumbotron.vue';
   <Header />
   
   <div class="body">
-    <Jumbotron />
     <Main />
     <Footer />
   </div>
@@ -28,8 +25,8 @@ import Jumbotron from './components/partials/Jumbotron.vue';
 <style lang="scss">
 @use './assets/scss/main.scss';
 
-.body{
-  margin-top: 80px;
-}
+// .body{
+//   background-color: red;
+// }
 
 </style>
