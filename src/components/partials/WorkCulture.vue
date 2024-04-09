@@ -60,7 +60,6 @@ import StatsCard from './StatsCard.vue';
 
 .work-culture{
     margin-top: 180px;
-    margin-bottom: 280px;
     .gm_card-box{
         margin-top: 100px !important;
         justify-content: space-between;
@@ -71,7 +70,7 @@ import StatsCard from './StatsCard.vue';
         padding: 0 60px;
         h2{
             font-size: 2.5rem;
-            font-weight: 600;
+            font-weight: bold;
         }
         h4{
             color: darken($grey, 20%);

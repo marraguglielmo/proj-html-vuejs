@@ -1,10 +1,12 @@
 <script>
 import Jumbotron from './partials/Jumbotron.vue';
 import WorkCulture from './partials/WorkCulture.vue';
+import HowWeWork from './partials/HowWeWork.vue';
     export default {
         components:{
+            Jumbotron,
             WorkCulture,
-            Jumbotron
+            HowWeWork
         }
     }
 </script>
@@ -20,6 +22,8 @@ import WorkCulture from './partials/WorkCulture.vue';
     </div> 
     <Jumbotron />
     <WorkCulture />
+    <HowWeWork />
+
     
 </template>
 
@@ -44,6 +48,6 @@ import WorkCulture from './partials/WorkCulture.vue';
                 transition: scale .2s;
             }
         }
-    }
+}
 
 </style>

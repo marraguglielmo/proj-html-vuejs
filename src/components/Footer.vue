@@ -10,7 +10,7 @@ import {store} from '../assets/data/store';
 </script>
 
 <template>
-    <h1>ciao</h1>
+    <h1>footer</h1>
 </template>
 
 <style lang="scss" scoped>

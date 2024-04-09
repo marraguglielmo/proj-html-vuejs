@@ -60,6 +60,16 @@ export default{
             'text' : 'SATISFATCION RATE',
             'value': '4%'
         }
-    ]
+    ],
+
+    'howWeWork':[
+        {
+            'description':"Opening up more opportunities in front of you to get the ticket to more enjoyable door life. Getting equipped with new kills for new sets of insights into your career. MaxCoach accompany learners in every stage of learning",
+            'img1':'stock-full-hd-11-670x450.jpg',
+            'img2':'icon-youtube-play.png',
+            
+                
+        }
+    ],
     
 }
