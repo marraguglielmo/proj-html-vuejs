@@ -1,13 +1,16 @@
 <script>
+import WorkCulture from './partials/WorkCulture.vue';
     export default {
-        
+        components:{
+            WorkCulture
+        }
     }
 </script>
 
 <template>
-    <main>
-        ciao
-    </main>
+
+    <WorkCulture />
+    
 </template>
 
 <style lang="scss" scoped>

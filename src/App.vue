@@ -8,7 +8,7 @@ import Jumbotron from './components/partials/Jumbotron.vue';
       Header,
       Main,
       Footer,
-      Jumbotron
+      Jumbotron,
     }
   }
 </script>
