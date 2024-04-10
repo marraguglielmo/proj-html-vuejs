@@ -1,5 +1,5 @@
 <script>
-import {store} from '../../assets/data/store';
+import {store} from '../../../assets/data/store';
     export default {
         data(){
             return{
@@ -27,7 +27,7 @@ import {store} from '../../assets/data/store';
 </template>
 
 <style lang="scss" scoped>
-@use '../../assets/scss/partials/variables'as *;
+@use '../../../assets/scss/partials/variables' as *;
 
 .gm_card{
     width: calc(100% / 3);

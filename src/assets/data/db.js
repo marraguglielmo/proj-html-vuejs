@@ -72,9 +72,33 @@ export default{
         }
     ],
 
+    'courses':[
+        {
+            'img': 'course-02-480x298.jpg',
+            'title': 'Learning to Write as a Professional Author',
+            'price': '40.',
+            'lessons': '20',
+            'students': '50'
+        },
+        {
+            'img': 'stock-full-hd-03-480x298.jpg',
+            'title': 'Customer-centric Info-Tech Strategies',
+            'price': '0.',
+            'lessons': '24',
+            'students': '769'
+        },
+        {
+            'img': 'stock-full-hd-04-480x298.jpg',
+            'title': 'Open Programming Courses for Everyone: Phyton',
+            'price': '19.',
+            'lessons': '17',
+            'students': '62'
+        },
+    ],
+
 
     
-    
+    // FOOTER
     'address':[
         {
             'text': '382 NE 191 St # 87394 Miami, FL 33179-3899'
@@ -159,44 +183,5 @@ export default{
     
     
     
-    
-
-    // "footer": {
-    //     "address": {
-    //         "text": "382 NE 191 St # 87394 Miami, FL 33179-3899",
-    //         "suite": "# 87394",
-    //         "city": "Miami",
-    //         "state": "FL",
-    //         "postalCode": "33179-3899"
-    //         },
-    //         "phone": "+1 (305) 547-9909",
-    //         "officeHours": "9am - 5pm EST, Monday - Friday",
-    //         "email": "support@maxcoach.com",
-    //         "socialIcons": [
-    //         {
-    //             "name": "Facebook",
-    //             "iconClass": "fa-brands fa-square-facebook",
-    //             "url": "https://www.facebook.com/"
-    //         },
-    //         {
-    //             "name": "Twitter",
-    //             "iconClass": "fa-brands fa-x-twitter",
-    //             "url": "https://twitter.com/"
-    //         },
-    //         {
-    //             "name": "Instagram",
-    //             "iconClass": "fa-brands fa-instagram",
-    //             "url": "https://www.instagram.com/"
-    //         },
-    //         {
-    //             "name": "LinkedIn",
-    //             "iconClass": "fa-brands fa-linkedin",
-    //             "url": "https://www.linkedin.com/"
-    //         }
-    //     ]
-    // }
-
-
-
     
 }

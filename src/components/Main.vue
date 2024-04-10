@@ -2,11 +2,13 @@
 import Jumbotron from './partials/Jumbotron.vue';
 import WorkCulture from './partials/WorkCulture.vue';
 import HowWeWork from './partials/HowWeWork.vue';
+import Courses from './partials/Courses.vue';
     export default {
         components:{
             Jumbotron,
             WorkCulture,
-            HowWeWork
+            HowWeWork,
+            Courses
         }
     }
 </script>
@@ -23,6 +25,7 @@ import HowWeWork from './partials/HowWeWork.vue';
     <Jumbotron />
     <WorkCulture />
     <HowWeWork />
+    <Courses />
 
     
 </template>

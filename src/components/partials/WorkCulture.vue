@@ -1,6 +1,6 @@
 <script>
 import {store} from '../../assets/data/store';
-import StatsCard from './StatsCard.vue';
+import StatsCard from './cards/StatsCard.vue';
     export default {
         data(){
             return{
