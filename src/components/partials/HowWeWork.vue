@@ -88,6 +88,7 @@ import {store} from '../../assets/data/store';
                     text-decoration: none;
                     &:hover{
                         color: $darkGreen;
+                        transition: color .2s;
                     }
                     &::after{
                         font-family: fontAwesome;

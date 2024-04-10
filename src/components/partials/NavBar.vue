@@ -34,6 +34,7 @@ import {store} from '../../assets/data/store';
             font-family: $font;
             &:hover a{
                 color: lighten($black, 40%);
+                transition: color .2s;
             }
             a{
                 font-weight: bold;

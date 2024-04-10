@@ -99,8 +99,6 @@ export default{
     'testimonials':[
         {
             'description': 'Seeking for verbals of our service quality? Find them here Everything is trasparent and straightforward for your sense of justification.',
-            'img2': 'testimonial-avata-02.jpg',
-            'img3': 'testimonial-avata-03.jpg',
             'testimonialCards':[
                 {
                     'title': 'Professional team of specialists and passionate mentors at reach',
@@ -109,10 +107,31 @@ export default{
                     'job': 'IT Specialist',
                     'img': 'testimonial-avata-01.jpg'
                 },
+                {
+                    'title': 'Lorem ipsum',
+                    'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia deserunt nemo sunt, recusandae nesciunt voluptas voluptates quod laboriosam cum eos debitis vitae sit ut deleniti tenetur ad cumque eaque corrupti.',
+                    'name': 'MINA HOLLACE',
+                    'job': 'Freelancer',
+                    'img': 'testimonial-avata-02.jpg'
+                },
+                {
+                    'title': 'The Maxcoach team works really hard to ensure high level of quality',
+                    'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia deserunt nemo sunt, recusandae nesciunt voluptas voluptates quod laboriosam cum eos debitis vitae sit ut deleniti tenetur ad cumque eaque corrupti.',
+                    'name': 'MINA HOLLACE',
+                    'job': 'Freelancer',
+                    'img': 'testimonial-avata-03.jpg'
+                },
             ]
         },
         
 
+    ],
+
+    'transformYou':[
+        {
+            'description': 'As learners, people can enjoy great companionship from MaxCoach mentors and educators. We can help you develop and grow at yopur best',
+            'img1': 'home-3-team-image.png'
+        }
     ],
 
 

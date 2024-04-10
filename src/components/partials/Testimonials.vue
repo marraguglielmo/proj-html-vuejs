@@ -34,16 +34,17 @@ import TestimonialCard from './cards/TestimonialCard.vue';
                     </span>
                 </p>
             </div>
-            <div class="card-box">
+            <div class="card-box position-relative">
                 
                 <TestimonialCard
                     v-for="(card, index) in store.dBase.testimonials[index].testimonialCards"
                     :key="index"
                     :cardObj="card"
+                    class="card-component"
                 />
                 
             </div>
-
+            
         </div>
 
     </section>
@@ -54,7 +55,26 @@ import TestimonialCard from './cards/TestimonialCard.vue';
 @use '../../assets/scss/partials/general';
 
 .testimonials{
-    margin-top: 200px;
+    margin-top: 150px;
+    padding: 120px 0;
+    .card-component:first-child{
+        position: absolute;
+        z-index: 10;
+    }
+    .card-component:nth-child(2){
+        position: absolute;
+        top: 110px;
+        z-index: 9;
+        scale: .83;
+        opacity: .4;
+    }
+    .card-component:nth-child(3){
+        position: absolute;
+        bottom: 40px;
+        z-index: 8;
+        scale: .8;
+        opacity: .4;
+    }
     .text-box{
             width: 40%;
             padding: 0 60px;

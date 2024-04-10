@@ -4,13 +4,15 @@ import WorkCulture from './partials/WorkCulture.vue';
 import HowWeWork from './partials/HowWeWork.vue';
 import Courses from './partials/Courses.vue';
 import Testimonials from './partials/Testimonials.vue';
+import TransformYou from './partials/TransformYou.vue';
     export default {
         components:{
             Jumbotron,
             WorkCulture,
             HowWeWork,
             Courses,
-            Testimonials
+            Testimonials,
+            TransformYou
         }
     }
 </script>
@@ -29,6 +31,7 @@ import Testimonials from './partials/Testimonials.vue';
     <HowWeWork />
     <Courses />
     <Testimonials />
+    <TransformYou />
 
     
 </template>
