@@ -37,7 +37,7 @@ import TestimonialCard from './cards/TestimonialCard.vue';
             <div class="card-box">
                 
                 <TestimonialCard
-                    v-for="(card, index) in store.dBase.testimonials.TestimonialCard"
+                    v-for="(card, index) in store.dBase.testimonials[index].testimonialCards"
                     :key="index"
                 />
                 

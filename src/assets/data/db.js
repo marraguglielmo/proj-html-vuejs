@@ -102,14 +102,13 @@ export default{
             'img1': 'testimonial-avata-01.jpg',
             'img2': 'testimonial-avata-02.jpg',
             'img3': 'testimonial-avata-03.jpg',
+            'testimonialCards':{
+                    'title': 'Professional team of specialists and passionate mentors at reach',
+                    'description': 'I need to get a certification for English profciency and Maxcoach is my best choice. Their tutors are smart and professional when dealing with students.',
+                    'img': 'testimonial-avata-01.jpg'
+                }
         },
-        'testimonialCards':[
-            {
-                'title': 'Professional team of specialists and passionate mentors at reach',
-                'description': 'I need to get a certification for English profciency and Maxcoach is my best choice. Their tutors are smart and professional when dealing with students.',
-                'img': 'testimonial-avata-01.jpg'
-            }
-        ]
+        
 
     ],
 
