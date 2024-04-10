@@ -99,14 +99,17 @@ export default{
     'testimonials':[
         {
             'description': 'Seeking for verbals of our service quality? Find them here Everything is trasparent and straightforward for your sense of justification.',
-            'img1': 'testimonial-avata-01.jpg',
             'img2': 'testimonial-avata-02.jpg',
             'img3': 'testimonial-avata-03.jpg',
-            'testimonialCards':{
+            'testimonialCards':[
+                {
                     'title': 'Professional team of specialists and passionate mentors at reach',
                     'description': 'I need to get a certification for English profciency and Maxcoach is my best choice. Their tutors are smart and professional when dealing with students.',
+                    'name': 'MADLEY PONDOR',
+                    'job': 'IT Specialist',
                     'img': 'testimonial-avata-01.jpg'
-                }
+                },
+            ]
         },
         
 
