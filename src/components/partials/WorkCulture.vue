@@ -87,6 +87,9 @@ import StatsCard from './cards/StatsCard.vue';
                 a{
                     color: $darkGreen;
                     text-decoration: none;
+                    &:hover{
+                        color: $black;
+                    }
                     &::after{
                         font-family: fontAwesome;
                         content: '\f061';

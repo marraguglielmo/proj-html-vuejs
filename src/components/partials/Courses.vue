@@ -18,6 +18,7 @@ import CoursesCard from './cards/CoursesCard.vue';
 
 <template>
     <section class="courses p-3">
+        <!-- TODO: CAROUSEL -->
         <!-- title -->
         <div class="container text-center">
             <h4>JOIN MAXCOACH AT BEST</h4>
@@ -53,6 +54,7 @@ import CoursesCard from './cards/CoursesCard.vue';
         h2{
             font-size: 2.8rem;
             font-weight: bold;
+            margin-bottom: 2.2rem;
             span{
                 color: $darkGreen;
                 font-weight: normal;
@@ -68,6 +70,9 @@ import CoursesCard from './cards/CoursesCard.vue';
                     color: darken($black, 50%);
                     font-weight: bold;
                     text-decoration: none;
+                    &:hover{
+                        color: $darkGreen;
+                    }
                     &::after{
                         font-family: fontAwesome;
                         content: '\f061';
