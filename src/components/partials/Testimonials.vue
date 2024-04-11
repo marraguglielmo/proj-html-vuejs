@@ -55,6 +55,7 @@ import TestimonialCard from './cards/TestimonialCard.vue';
 @use '../../assets/scss/partials/general';
 
 .testimonials{
+    background-color: $white;
     margin-top: 150px;
     padding: 120px 0;
     .card-component:first-child{

@@ -15,22 +15,31 @@ import {store} from '../../../assets/data/store';
 
 <template>
     <div class="col">
-        <div class="gm_course-card">
+        <div class="gm_course-card text-start">
             <div class="card-img">
                 <img :src="`/img/${cardObj.img}`" alt="">
             </div>
             <div class="card-text">
-                <span class="price">
+                <span v-if="cardObj.price" class="price">
                     {{ cardObj.price }}
                     <span class="decimals">00</span>
                 </span>
+                <span v-else class="type">
+                    {{ cardObj.type }}
+                </span>
                 <h3>{{ cardObj.title }}</h3>
                 <div class="info-card">
-                    <span class="lessons">
+                    <span v-if="cardObj.lessons" class="lessons">
                         {{ cardObj.lessons }} Lessons
                     </span>
-                    <span class="students">
+                    <span v-else class="date">
+                        {{ cardObj.date }}
+                    </span>
+                    <span v-if="cardObj.students" class="students">
                         {{ cardObj.students }} Students
+                    </span>
+                    <span v-else class="views">
+                        {{ cardObj.views }} views
                     </span>
                 </div>
             </div>
@@ -68,6 +77,11 @@ import {store} from '../../../assets/data/store';
                     margin: 0;
                 }
             }
+            .type{
+                color: darken($grey, 10%);
+                font-weight: 600;
+
+            }
             h3{
                 font-size: 1.3rem;
                 font-weight: bold;
@@ -75,7 +89,7 @@ import {store} from '../../../assets/data/store';
                 margin-top: 7px;
             }
             .info-card{
-                color: lighten($grey, 4%);
+                color: darken($grey, 2%);
                 font-weight: 600;
                 margin-bottom: 12px;
                 span{
@@ -88,8 +102,17 @@ import {store} from '../../../assets/data/store';
                     }
                     &.students::before{
                         font-family: fontAwesome;
-                        color: lighten($grey, 5%);
                         content: '\f15c';
+                        margin-right: 7px;
+                    }
+                    &.date::before{
+                        font-family: fontAwesome;
+                        content: '\f133';
+                        margin-right: 7px;
+                    }
+                    &.views::before{
+                        font-family: fontAwesome;
+                        content: '\f06e';
                         margin-right: 7px;
                     }
                 }

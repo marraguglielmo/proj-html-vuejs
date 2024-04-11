@@ -1,9 +1,9 @@
 <script>
 import {store} from '../../assets/data/store';
-import CoursesCard from './cards/CoursesCard.vue';
+import GeneralCard from './cards/GeneralCard.vue';
     export default {
         components:{
-            CoursesCard
+            GeneralCard
         },
         
         data(){
@@ -26,7 +26,7 @@ import CoursesCard from './cards/CoursesCard.vue';
         </div>
         <!-- carousel -->
         <div class="container main-wrapper d-flex justify-content-between">
-            <CoursesCard
+            <GeneralCard
                 v-for="(card, index) in store.dBase.courses"
                 :key="index"
                 :cardObj="card"

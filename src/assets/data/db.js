@@ -134,6 +134,30 @@ export default{
         }
     ],
 
+    'blogs':[
+        {
+            'title': 'Brush Strokes Energize Trees in Paintings',
+            'type': 'ARTIST',
+            'date': 'May 15, 2020',
+            'views': '688',
+            'img': 'artist-blog-03-480x325.jpeg'
+        },
+        {
+            'title': 'Pocket-Sized Notebooks Hold Miniature Paintings',
+            'type': 'ARTIST',
+            'date': 'May 15, 2020',
+            'views': '603',
+            'img': 'artist-blog-01-480x325.jpg'
+        },
+        {
+            'title': 'Brush Strokes Energize Trees in Paintings',
+            'type': 'ARTIST',
+            'date': 'May 15, 2020',
+            'views': '397',
+            'img': 'artist-blog-02-480x325.jpg'
+        },
+    ],
+
 
     
     // FOOTER

@@ -18,7 +18,7 @@ import {store} from '../../assets/data/store'
         >
             <div class="img-box position-relative">
                 <!-- img 1 -->
-                <img :src="`/img/${item.img1}`" alt="work culture 1">
+                <img class="position-relative" :src="`/img/${item.img1}`" alt="work culture 1">
                 <!-- shapes img 2-->
                 <img class="position-absolute" src="/img/maxcoach-shape-07.png" alt="">
                 <!-- shapes img 3-->
@@ -50,8 +50,9 @@ import {store} from '../../assets/data/store'
 @use '../../assets/scss/partials/general';
 
 .transform{
-    margin-top: 200px;
-    margin-bottom: 200px;
+    background-color: $white;
+    padding-top: 200px;
+    padding-bottom: 200px;
     .img-box{
         width: 60%;
         text-align: center;
@@ -59,22 +60,25 @@ import {store} from '../../assets/data/store'
         img{
             border-radius: 5px;
         }
+        img:first-child{
+            z-index: 1;
+        }
         img:nth-child(2){
             bottom: -120px;
             right: 295px;
-            z-index: -10;
+            z-index: 0;
         }
         img:nth-child(3){
             width: 160px;
             top: 130px;
             left: -50px;
-            z-index: -9;
+            z-index: 0;
         }
         img:nth-child(4){
             width: 160px;
             bottom: 20px;
             left: -110px;
-            z-index: -9;
+            z-index: 0;
         }
     }
     .text-box{
