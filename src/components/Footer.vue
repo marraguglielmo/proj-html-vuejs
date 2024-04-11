@@ -73,7 +73,7 @@ footer{
     color: darken($white, 40%);
     padding-top: 60px;
     padding-bottom: 25px;
-    margin-top: 100px;
+    padding-top: 70px;
     h4{
     color: $white;
     margin-bottom: 20px;

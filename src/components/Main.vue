@@ -6,6 +6,7 @@ import Courses from './partials/Courses.vue';
 import Testimonials from './partials/Testimonials.vue';
 import TransformYou from './partials/TransformYou.vue';
 import Blogs from './partials/Blogs.vue';
+import NewsLetter from './partials/NewsLetter.vue';
     export default {
         components:{
             Jumbotron,
@@ -14,7 +15,8 @@ import Blogs from './partials/Blogs.vue';
             Courses,
             Testimonials,
             TransformYou,
-            Blogs
+            Blogs,
+            NewsLetter
         }
     }
 </script>
@@ -35,6 +37,7 @@ import Blogs from './partials/Blogs.vue';
     <Testimonials />
     <TransformYou />
     <Blogs />
+    <NewsLetter />
 
     
 </template>

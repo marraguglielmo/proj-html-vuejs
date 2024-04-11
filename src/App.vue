@@ -26,7 +26,7 @@ import Footer from './components/Footer.vue'
 @use './assets/scss/main.scss';
 
 // .body{
-//   background-color: red;
+//   background-color: white;
 // }
 
 </style>
