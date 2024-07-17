@@ -56,6 +56,14 @@ import {store} from '../../assets/data/store';
         padding-right: 70px;
         img{
             border-radius: 5px;
+            cursor: pointer;
+            transition: transform .1s;
+            &:hover{
+                transform: scale(1.01);
+            }
+            &:not(:hover){
+                transition: transform .1s;
+            }
         }
         img:last-child{
             top: 50%;

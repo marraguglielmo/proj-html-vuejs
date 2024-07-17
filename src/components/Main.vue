@@ -59,8 +59,12 @@ import NewsLetter from './partials/NewsLetter.vue';
         i{
             cursor: pointer;
             &:hover{
-                scale: 1.2;
-                transition: scale .2s;
+                color: $darkGreen;
+                scale: 1.15;
+                transition: scale .2s, color .4s;
+            }
+            &:not(:hover){
+                transition: scale .2s, color .4s;
             }
         }
 }

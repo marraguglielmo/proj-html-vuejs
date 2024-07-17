@@ -33,7 +33,11 @@ import {store} from '../../assets/data/store';
         li{
             font-family: $font;
             &:hover a{
-                color: lighten($black, 40%);
+                // color: lighten($black, 40%);
+                color: $darkGreen;
+                transition: color .2s;
+            }
+            &:not(:hover) a{
                 transition: color .2s;
             }
             a{

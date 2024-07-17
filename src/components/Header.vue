@@ -78,7 +78,11 @@ import NavBar from './partials/NavBar.vue';
                     font-size: 1.1rem;
                     cursor: pointer;
                     &:hover{
-                        color: grey;
+                        color: $darkGreen;
+                        transition: color .2s;
+                    }
+                    &:not(:hover){
+                        transition: color .2s;
                     }
                 }
                 .cart span{

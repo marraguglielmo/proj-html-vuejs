@@ -58,9 +58,13 @@ import {store} from '../../../assets/data/store';
         background-color: white;
         overflow: hidden;
         border-radius: 5px;
+        cursor: pointer;
         &:hover{
             transition: box-shadow .4s;
             box-shadow: 0px 17px 17px -8px rgba(66, 68, 90, 0.589);
+        }
+        &:not(:hover){
+            transition: box-shadow .4s;
         }
         .card-text{
             padding: 15px;

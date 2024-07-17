@@ -96,19 +96,22 @@ footer{
             
         }
         a{
-                color: darken($white, 40%);
+            color: darken($white, 40%);
+            &:hover{
+                color: darken($white, 10%);
+                scale: 1.2;;
+            }
+            i{
+                font-size: 25px;
                 &:hover{
-                    color: darken($white, 10%);
-                    scale: 1.2;;
+                    scale: 1.2;
+                    transition: scale .2s
                 }
-                i{
-                    font-size: 25px;
-                    &:hover{
-                        scale: 1.2;
-                        transition: scale .2s
-                    }
+                &:not(:hover){
+                    transition: scale .2s
                 }
             }
+        }
     }
     .copyright{
         margin-top: 70px;

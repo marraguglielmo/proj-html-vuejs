@@ -105,7 +105,7 @@ import {store} from '../../assets/data/store'
                 margin: 0 auto;
                 padding: 20px 35px;
                 &:hover{
-                    background-color: white;
+                    background-color: black;
                 }
                 &:hover a{
                     color: $darkGreen;
